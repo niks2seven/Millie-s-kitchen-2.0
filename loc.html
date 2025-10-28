@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Millie’s Kitchen | Location</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <img src="logo1.png" alt="Millie's Kitchen Logo" width="55" class="me-2">
+      Millie’s Kitchen
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="home.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="catering.html">Catering</a></li>
+        <li class="nav-item"><a class="nav-link active" href="location.html">Location</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero d-flex align-items-center justify-content-center text-center text-white">
+  <div class="hero-overlay"></div>
+  <div class="container position-relative">
+    <h1 class="display-4 fw-bold animate__animated animate__fadeInDown glow-text">
+      Visit Millie’s Kitchen
+    </h1>
+    <p class="lead animate__animated animate__fadeInUp mb-4">
+      Discover where the magic happens — the heart of great taste.
+    </p>
+  </div>
+</section>
+
+<!-- Location Info -->
+<section class="location-section py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">Our Location</h2>
+    <p class="lead">We’re located at:</p>
+    <p><strong>123 Millie’s Kitchen Street, Food City, FC 12345</strong></p>
+    <p>For reservations, call <strong>+91 98765 43210</strong></p>
+    <p>Come and enjoy a delightful dining experience with us!</p>
+  </div>
+</section>
+
+<!-- Map -->
+<section class="map-section py-5 bg-light">
+  <div class="container text-center">
+    <div class="map-container shadow-lg rounded overflow-hidden mb-4">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0!2d90.0!3d23.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAwJzAwLjAiTiA5MMKwMDAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1697800000000"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <a href="form.html" class="btn btn-gold btn-lg">Book a Table Now</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4 bg-dark text-white">
+  <p>© 2025 Millie’s Kitchen | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Navbar scroll effect
+  window.addEventListener("scroll", function() {
+    const nav = document.querySelector(".navbar");
+    nav.classList.toggle("scrolled", window.scrollY > 50);
+  });
+</script>
+</body>
+</html>

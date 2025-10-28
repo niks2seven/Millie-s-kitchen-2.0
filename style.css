@@ -1,0 +1,110 @@
+/* ---------- Navbar ---------- */
+.navbar {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(10px);
+  transition: background 0.3s ease;
+}
+.navbar.scrolled {
+  background: #000 !important;
+}
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #f8b400 !important;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #f8b400 !important;
+}
+.navbar-nav .nav-link.active {
+  color: #f8b400 !important;
+  border-bottom: 2px solid #f8b400;
+}
+
+/* ---------- Hero Section ---------- */
+.menu-hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('menu-bg.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.menu-hero h1 {
+  font-size: 3rem;
+  color: #f8b400;
+  font-weight: 700;
+}
+.menu-hero p {
+  font-size: 1.2rem;
+  color: #f2f2f2;
+}
+
+/* ---------- Buttons ---------- */
+.btn-gold {
+  background-color: #f8b400;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn-gold:hover {
+  background-color: #d99a00;
+  color: #fff;
+}
+.btn-outline-light {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ---------- Tables ---------- */
+table {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+caption {
+  caption-side: top;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #f8b400;
+}
+
+/* ---------- Cards ---------- */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.card-title {
+  color: #f8b400;
+  font-weight: 600;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #000;
+  color: #fff;
+}

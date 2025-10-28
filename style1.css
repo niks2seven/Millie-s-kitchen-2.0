@@ -1,0 +1,107 @@
+/* General Reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background: transparent;
+  transition: background 0.4s, padding 0.4s;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 10px 0;
+}
+
+.navbar .nav-link {
+  color: white !important;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  height: 100vh;
+  background: url('bg.jpg') center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.6),
+      rgba(255, 179, 0, 0.2)
+  ), 
+  url('logo1.png') center center no-repeat;
+  background-size: 300px, cover;
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.glow-text {
+  color: #fff;
+  text-shadow: 0 0 15px rgba(255, 200, 0, 0.8),
+               0 0 25px rgba(255, 180, 0, 0.6);
+  animation: glowPulse 2.5s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    text-shadow: 0 0 10px rgba(255, 200, 0, 0.6),
+                 0 0 20px rgba(255, 160, 0, 0.3);
+  }
+  to {
+    text-shadow: 0 0 25px rgba(255, 210, 0, 0.9),
+                 0 0 45px rgba(255, 180, 0, 0.6);
+  }
+}
+
+/* Gold Button Styling */
+.btn-gold {
+  background: linear-gradient(45deg, #ffb300, #ffcc33);
+  color: #000;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 200, 0, 0.4);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(45deg, #ffc107, #ffb300);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 200, 0, 0.6);
+}
+
+
+/* Features */
+.feature-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Testimonials */
+.testimonials {
+  background: url('bg.jpg') fixed center/cover no-repeat;
+}
+
+/* Contact */
+.contact {
+  background: #f8f9fa;
+}
+
+footer {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,121 @@
+/* ---------- Navbar ---------- */
+.navbar {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(10px);
+  transition: background 0.3s ease;
+}
+.navbar.scrolled {
+  background: #000 !important;
+}
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #f8b400 !important;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #f8b400 !important;
+}
+.navbar-nav .nav-link.active {
+  color: #f8b400 !important;
+  border-bottom: 2px solid #f8b400;
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('catering-bg.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f8b400;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #f2f2f2;
+}
+
+/* ---------- Buttons ---------- */
+.btn-gold {
+  background-color: #f8b400;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-gold:hover {
+  background-color: #d99a00;
+  color: #fff;
+}
+
+/* ---------- Services Section ---------- */
+#services {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.service-card {
+  border-radius: 15px;
+  border: 1px solid #eee;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.service-card h3 {
+  color: #f8b400;
+  font-weight: 600;
+}
+
+/* ---------- Booking Section ---------- */
+.booking {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('book-bg.jpg') center/cover no-repeat;
+  padding: 80px 0;
+}
+.booking h2 {
+  color: #f8b400;
+}
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  outline: 2px solid #f8b400;
+}
+
+/* ---------- Contact + Footer ---------- */
+#contact {
+  background-color: #f8f9fa;
+  color: #333;
+}
+footer {
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+footer a {
+  color: #f8b400;
+  text-decoration: none;
+}

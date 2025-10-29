@@ -4,9 +4,6 @@ Millie’s Kitchen is a modern, responsive restaurant website designed to provid
 
 🔗 Live Preview
 
-👉 View Website
-
-
 🌟 Features
 
 Beautiful Landing Page – Welcomes visitors with Millie’s Kitchen branding and an elegant hero section.
@@ -107,4 +104,5 @@ Google Maps and reviews section
 Niharika Singh
 Varun Dadhich
 🌐 [Portfolio or LinkedIn link if you want]
+
 
